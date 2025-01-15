@@ -4,3 +4,6 @@
 /BASICs/terraform.tfstate
 /BASICs/terraform.tfstate.backup
 /.idea/workspace.xml
+/Variable/.terraform.lock.hcl
+/Variable/.terraform/providers/registry.terraform.io/hashicorp/aws/5.83.1/windows_amd64/terraform-provider-aws_v5.83.1_x5.exe
+/Variable/.terraform/providers/registry.terraform.io/hashicorp/aws/5.83.1/windows_amd64/LICENSE.txt
