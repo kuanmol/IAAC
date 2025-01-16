@@ -7,3 +7,14 @@
 /Variable/.terraform.lock.hcl
 /Variable/.terraform/providers/registry.terraform.io/hashicorp/aws/5.83.1/windows_amd64/terraform-provider-aws_v5.83.1_x5.exe
 /Variable/.terraform/providers/registry.terraform.io/hashicorp/aws/5.83.1/windows_amd64/LICENSE.txt
+/PROVISION/.terraform/providers/registry.terraform.io/hashicorp/aws/5.54.1/windows_amd64/terraform-provider-aws_v5.54.1_x5.exe
+/PROVISION/levelup_key.pub
+/PROVISION/levelup_key
+/PROVISION/terraform.tfstate.backup
+/PROVISION/terraform.tfstate
+/PROVISION/.terraform/providers/registry.terraform.io/hashicorp/aws/5.54.1/windows_amd64/LICENSE.txt
+/PROVISION/.terraform.lock.hcl
+/.idea/material_theme_project_new.xml
+/.idea/misc.xml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/vcs.xml
