@@ -1,11 +1,4 @@
-terraform {
-  required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = "5.54.1"
-    }
-  }
-}
+
 resource "aws_vpc" "custom-vpc" {
   cidr_block           = "10.0.0.0/16"
   instance_tenancy     = "default"
@@ -106,17 +99,17 @@ resource "aws_route_table" "rt-public" {
 
 resource "aws_route_table_association" "public-1-a" {
   subnet_id      = aws_subnet.vpc-public-1.id
-  route_table_id = aws_route_table.rt-public
+  route_table_id = aws_route_table.rt-public.id
 }
 
 resource "aws_route_table_association" "public-2-a" {
   subnet_id      = aws_subnet.vpc-public-2.id
-  route_table_id = aws_route_table.rt-public
+  route_table_id = aws_route_table.rt-public.id
 }
 
 resource "aws_route_table_association" "public-3-a" {
   subnet_id      = aws_subnet.vpc-public-3.id
-  route_table_id = aws_route_table.rt-public
+  route_table_id = aws_route_table.rt-public.id
 }
 
 
