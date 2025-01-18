@@ -1,10 +1,10 @@
 resource "aws_key_pair" "levelup_key" {
-  key_name   = "levelup_key"
+  key_name = "levelup_key"
   public_key = file(var.PATH_TO_PUBLIC_KEY)
 }
 
 resource "aws_instance" "Instance" {
-  ami           = lookup(var.AMIS, var.aws-region)
+  ami = lookup(var.AMIS, var.aws-region)
   instance_type = "t2.micro"
   key_name      = aws_key_pair.levelup_key.key_name
 
@@ -13,7 +13,7 @@ resource "aws_instance" "Instance" {
   }
 
   provisioner "file" {
-    source      = "ngnix.sh"  # Adjust path as needed
+    source = "ngnix.sh"  # Adjust path as needed
     destination = "/tmp/ngnix.sh"
   }
 
@@ -29,9 +29,9 @@ resource "aws_instance" "Instance" {
   }
 
   connection {
-    host        = coalesce(self.public_ip, self.private_ip)
-    type        = "ssh"
-    user        = var.INSTANCE_USERNAME
+    host = coalesce(self.public_ip, self.private_ip)
+    type = "ssh"
+    user = var.INSTANCE_USERNAME
     private_key = file(var.PATH_TO_PRIVATE_KEY)
   }
 }

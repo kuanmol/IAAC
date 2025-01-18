@@ -3,7 +3,7 @@ resource "aws_instance" "MyFirstInstance" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "instances"  //new name to each instance
+    Name = "instances"  //new name
   }
 
   security_groups = "${var.Security_group}"
