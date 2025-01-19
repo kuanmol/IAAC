@@ -36,3 +36,13 @@
 /AWS service/EBS/.terraform.lock.hcl
 /AWS service/EBS/levelup_key
 /AWS service/EBS/levelup_key.pub
+/AWS service/RDS/.terraform.lock.hcl
+/AWS service/RDS/.terraform.tfstate.lock.info
+/AWS service/RDS/levelup_key
+/AWS service/RDS/levelup_key.pub
+/AWS service/RDS/.terraform/providers/registry.terraform.io/hashicorp/aws/5.54.1/windows_amd64/LICENSE.txt
+/AWS service/EBS/terraform.tfstate
+/AWS service/RDS/terraform.tfstate
+/AWS service/EBS/terraform.tfstate.backup
+/AWS service/RDS/terraform.tfstate.backup
+/AWS service/RDS/.terraform/providers/registry.terraform.io/hashicorp/aws/5.54.1/windows_amd64/terraform-provider-aws_v5.54.1_x5.exe
