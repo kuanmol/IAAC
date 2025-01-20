@@ -46,3 +46,12 @@
 /AWS service/EBS/terraform.tfstate.backup
 /AWS service/RDS/terraform.tfstate.backup
 /AWS service/RDS/.terraform/providers/registry.terraform.io/hashicorp/aws/5.54.1/windows_amd64/terraform-provider-aws_v5.54.1_x5.exe
+/AWS service/IAM/.terraform.lock.hcl
+/AWS service/IAM/.terraform/providers/registry.terraform.io/hashicorp/aws/5.54.1/windows_amd64/LICENSE.txt
+/AWS service/IAM/.terraform/providers/registry.terraform.io/hashicorp/aws/5.54.1/windows_amd64/terraform-provider-aws_v5.54.1_x5.exe
+/AWS service/Autoscaling/.terraform.lock.hcl
+/AWS service/Autoscaling/levelup_key
+/AWS service/Autoscaling/levelup_key.pub
+/AWS service/Autoscaling/.terraform/providers/registry.terraform.io/hashicorp/aws/5.84.0/windows_amd64/LICENSE.txt
+/AWS service/IAM/terraform.tfstate
+/AWS service/Autoscaling/.terraform/providers/registry.terraform.io/hashicorp/aws/5.84.0/windows_amd64/terraform-provider-aws_v5.84.0_x5.exe
