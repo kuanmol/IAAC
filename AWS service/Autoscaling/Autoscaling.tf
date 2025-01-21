@@ -14,7 +14,7 @@ resource "aws_autoscaling_group" "autoscaling" {
   max_size                  = 2
   min_size                  = 1
   name                      = "autoscaling"
-  vpc_zone_identifier = ["us-east-1a", "us-east-1b"]
+  availability_zones = ["us-east-1a", "us-east-1b"]
   health_check_grace_period = 200
   health_check_type         = "EC2"
   force_delete              = true
